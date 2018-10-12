@@ -21,7 +21,7 @@ var storage = new Client.CookieFileStorage(__dirname + '/cookies/user.json')
 var Promise = require('bluebird')
 
 // And go for login
-Client.Session.create(device, storage, 'barriesimo', '545137a')
+Client.Session.create(device, storage,)
     .then(function (session) {
         storage.getAccountId()
         .then(function (accountId) {
