@@ -1,0 +1,19 @@
+{
+  "name": "insta-dms",
+  "version": "1.0.0",
+  "description": "webapp for viewing direct messages on your instagram account",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.2",
+    "express": "^4.16.3",
+    "instagram-private-api": "^0.6.8",
+    "lodash": "^4.17.11",
+    "request": "^2.88.0",
+    "underscore": "^1.9.1"
+  }
+}
